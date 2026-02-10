@@ -1,0 +1,1394 @@
+{
+  "cars": [
+    {
+      "brand": "Zotye",
+      "model": "5008",
+      "year": "2011",
+      "plate": "18A-20592",
+      "color": "Bạc",
+      "address": "Lương Phong",
+      "buyDate": "2026-01-20",
+      "buyPrice": 23000,
+      "sellPrice": 50000,
+      "status": "Đã bán",
+      "costs": [
+        {
+          "name": "Xử lý quá nhiệt - Thay ống nước làm mát",
+          "amount": 1300
+        },
+        {
+          "name": "Dọn rửa ngoại nội thất",
+          "amount": 500
+        },
+        {
+          "name": "Sửa Òa ga: Vệ sinh cổ ga, cảm biến + kim phun",
+          "amount": 200
+        },
+        {
+          "name": "Sửa thay bơm xăng",
+          "amount": 800
+        }
+      ],
+      "shares": [
+        {
+          "name": "Nguyễn Văn Cương",
+          "amount": 23000
+        }
+      ],
+      "preCosts": {
+        "seller": [
+          {
+            "name": "Cương",
+            "amount": 0
+          }
+        ],
+        "shipper": []
+      },
+      "prePay": {
+        "seller": {
+          "name": "",
+          "amount": 0
+        },
+        "shipper": {
+          "name": "",
+          "amount": 0
+        }
+      },
+      "sale": {
+        "date": "2026-01-29",
+        "name": "Em trai - không biết tên",
+        "address": "Yên Bái"
+      },
+      "salers": [
+        {
+          "name": "Lăng Văn Dương",
+          "amount": 5000
+        },
+        {
+          "name": "Trần Văn Đạt",
+          "amount": 1500
+        }
+      ],
+      "shippers": [],
+      "isLocked": true,
+      "auditLogs": [
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-05T15:00:31.660Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Thêm thử (1)",
+          "by": "admin",
+          "at": "2026-02-05T15:00:41.460Z"
+        },
+        {
+          "action": "delete-cost",
+          "label": "Xóa chi phí: Thêm thử (1)",
+          "by": "admin",
+          "at": "2026-02-05T15:01:04.084Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-05T18:49:40.360Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T16:32:38.874Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T16:32:57.297Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T16:45:12.186Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T16:47:53.841Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T17:01:20.555Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T17:01:31.484Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "Lăng Văn Dương",
+          "at": "2026-02-07T19:15:14.058Z",
+          "color": "#ff0000"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Tên cổ đông cổ đông [Cương]: Cương ➔ Nguyễn Văn Cương",
+          "by": "Lăng Văn Dương",
+          "at": "2026-02-07T19:15:17.617Z",
+          "color": "#ff0000"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "Nguyễn Văn Cương",
+          "at": "2026-02-07T21:15:42.671Z",
+          "color": "#6600ff"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-08T15:05:47.702Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Lăng Văn Dương (5,000)",
+          "by": "admin",
+          "at": "2026-02-08T15:06:04.101Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Trần Văn Đạt (1,500)",
+          "by": "admin",
+          "at": "2026-02-08T15:06:10.118Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Dương (5,000)",
+          "by": "admin",
+          "at": "2026-02-08T15:06:12.055Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Đạt (1,500)",
+          "by": "admin",
+          "at": "2026-02-08T15:06:13.636Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [23000] ➔ [230000000]",
+          "by": "admin",
+          "at": "2026-02-08T16:42:24.953Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [230000000] ➔ [23000000000000]",
+          "by": "admin",
+          "at": "2026-02-08T16:42:29.385Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [23000000000000] ➔ [2.3e+26]",
+          "by": "admin",
+          "at": "2026-02-08T16:42:34.905Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [2.3e+26] ➔ [23000]",
+          "by": "admin",
+          "at": "2026-02-08T16:42:42.913Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [23000] ➔ [230000]",
+          "by": "admin",
+          "at": "2026-02-08T16:47:58.921Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [230000] ➔ [NaN]",
+          "by": "admin",
+          "at": "2026-02-08T16:48:05.161Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [NaN] ➔ [23000]",
+          "by": "admin",
+          "at": "2026-02-08T16:48:08.760Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [23000] ➔ [23000]",
+          "by": "admin",
+          "at": "2026-02-08T16:53:40.594Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-09T00:02:44.487Z"
+        }
+      ],
+      "lockedAt": "2026-02-09T00:02:44.487Z"
+    },
+    {
+      "brand": "Haima",
+      "model": "2",
+      "year": "2012",
+      "plate": "30L-11645",
+      "color": "Trắng",
+      "address": "Vĩnh Yên",
+      "buyDate": "2026-01-02",
+      "buyPrice": 73500,
+      "sellPrice": 0,
+      "status": "Kho",
+      "costs": [
+        {
+          "name": "Đổ xăng và ăn uống cho 3 ae đi lấy xe",
+          "amount": 1100
+        },
+        {
+          "name": "Thuê xe kéo xuống gara Anh Bình - Bắc Ninh",
+          "amount": 1250
+        },
+        {
+          "name": "Thay bơm xăng tại gara anh Bình - BN",
+          "amount": 1200
+        },
+        {
+          "name": "Công đi lấy xe từ gara anh Bình về",
+          "amount": 350
+        },
+        {
+          "name": "Kéo từ Tân Long về Gara Thường Thơm",
+          "amount": 500
+        },
+        {
+          "name": "Thay Rơ-le tổng + Cầu trì + làm nổ",
+          "amount": 300
+        }
+      ],
+      "shares": [
+        {
+          "name": "Nguyễn Văn Cương",
+          "amount": 73500
+        }
+      ],
+      "seller": "Dương",
+      "sellerFee": 1500,
+      "shipper": "",
+      "shipFee": 0,
+      "preCosts": {
+        "seller": [],
+        "shipper": []
+      },
+      "salers": [],
+      "shippers": [],
+      "auditLogs": [
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Thêm thử (123)",
+          "by": "Nguyễn Văn Cương",
+          "at": "2026-02-05T14:19:53.970Z",
+          "color": "#6600ff"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Thêm lần nữa (213)",
+          "by": "admin",
+          "at": "2026-02-05T14:20:27.386Z"
+        },
+        {
+          "action": "delete-cost",
+          "label": "Xóa chi phí: Thêm lần nữa (213)",
+          "by": "admin",
+          "at": "2026-02-05T14:24:16.027Z"
+        },
+        {
+          "action": "delete-share",
+          "label": "Xóa cổ phần: Cương (73,500)",
+          "by": "admin",
+          "at": "2026-02-05T15:27:50.086Z"
+        },
+        {
+          "action": "add-share",
+          "label": "Thêm cổ phần: Nguyễn Văn Cương (73,500)",
+          "by": "admin",
+          "at": "2026-02-05T15:27:56.759Z"
+        },
+        {
+          "action": "add-shipper",
+          "label": "Thêm Vận chuyển: Trần Văn Đạt (1,000)",
+          "by": "admin",
+          "at": "2026-02-05T15:50:42.575Z"
+        },
+        {
+          "action": "delete-shipper",
+          "label": "Xóa Vận chuyển: Trần Văn Đạt (1,000)",
+          "by": "admin",
+          "at": "2026-02-05T15:50:47.663Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Trần Văn Đạt (1)",
+          "by": "admin",
+          "at": "2026-02-05T15:50:54.583Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Trần Văn Đạt (1)",
+          "by": "admin",
+          "at": "2026-02-05T15:50:57.799Z"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Tên cổ đông cổ đông [Nguyễn Văn Cương]: Nguyễn Văn Cương ➔ Trần Văn Đạt",
+          "by": "admin",
+          "at": "2026-02-05T16:03:05.095Z"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Tên cổ đông cổ đông [Trần Văn Đạt]: Trần Văn Đạt ➔ Nguyễn Văn Cương",
+          "by": "admin",
+          "at": "2026-02-05T16:03:15.367Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [73500] ➔ [73500]",
+          "by": "admin",
+          "at": "2026-02-08T16:35:22.952Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Trần Văn Đạt (NaN)",
+          "by": "admin",
+          "at": "2026-02-08T19:43:38.074Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Trần Văn Đạt (NaN)",
+          "by": "admin",
+          "at": "2026-02-08T19:43:49.370Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Trần Văn Đạt (1.234)",
+          "by": "admin",
+          "at": "2026-02-08T19:43:54.905Z"
+        },
+        {
+          "action": "add-shipper",
+          "label": "Thêm Vận chuyển: Nguyễn Văn Cương (3.145)",
+          "by": "admin",
+          "at": "2026-02-08T19:50:44.337Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Nguyễn Văn Cương (1.235)",
+          "by": "admin",
+          "at": "2026-02-08T19:59:54.024Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Nguyễn Văn Cương (1.235)",
+          "by": "admin",
+          "at": "2026-02-08T20:02:39.313Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Nguyễn Văn Cương (4.321)",
+          "by": "admin",
+          "at": "2026-02-08T20:02:50.724Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Nguyễn Văn Cương (4.321)",
+          "by": "admin",
+          "at": "2026-02-08T20:03:10.192Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Trần Văn Đạt (1.234)",
+          "by": "admin",
+          "at": "2026-02-08T20:03:12.560Z"
+        },
+        {
+          "action": "delete-shipper",
+          "label": "Xóa Vận chuyển: Nguyễn Văn Cương (3.145)",
+          "by": "admin",
+          "at": "2026-02-08T20:03:38.744Z"
+        },
+        {
+          "action": "add-shipper",
+          "label": "Thêm Vận chuyển: Trần Văn Đạt (1.234)",
+          "by": "admin",
+          "at": "2026-02-08T20:03:50.672Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Nguyễn Văn Cương (1.111)",
+          "by": "admin",
+          "at": "2026-02-08T20:18:56.361Z"
+        },
+        {
+          "action": "delete-shipper",
+          "label": "Xóa Vận chuyển: Trần Văn Đạt (1.234)",
+          "by": "admin",
+          "at": "2026-02-08T20:19:02.122Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Nguyễn Văn Cương (1.111)",
+          "by": "admin",
+          "at": "2026-02-08T22:51:13.775Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Nguyễn Văn Cương (1,232)",
+          "by": "admin",
+          "at": "2026-02-08T22:52:35.159Z"
+        },
+        {
+          "action": "add-shipper",
+          "label": "Thêm Vận chuyển: Trần Văn Đạt (2,000)",
+          "by": "admin",
+          "at": "2026-02-08T22:53:02.128Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Nguyễn Văn Cương (1,232)",
+          "by": "admin",
+          "at": "2026-02-08T22:57:18.592Z"
+        },
+        {
+          "action": "delete-shipper",
+          "label": "Xóa Vận chuyển: Trần Văn Đạt (2,000)",
+          "by": "admin",
+          "at": "2026-02-08T22:57:21.360Z"
+        }
+      ]
+    },
+    {
+      "brand": "Tobe",
+      "model": "mcar",
+      "year": "2010",
+      "plate": "",
+      "color": "Trắng",
+      "address": "TH",
+      "buyDate": "2025-12-18",
+      "buyPrice": 60000,
+      "sellPrice": 76900,
+      "status": "Đã bán",
+      "costs": [
+        {
+          "name": "Chi phí sửa chữa",
+          "amount": 10350
+        }
+      ],
+      "shares": [
+        {
+          "name": "Trần Văn Đạt",
+          "amount": 60000
+        }
+      ],
+      "preCosts": {
+        "seller": [
+          {
+            "name": "Cương",
+            "amount": 0
+          }
+        ],
+        "shipper": [
+          {
+            "name": "Dương",
+            "amount": 2500
+          },
+          {
+            "name": "Đạt",
+            "amount": 2500
+          }
+        ]
+      },
+      "salers": [
+        {
+          "name": "Nguyễn Văn Cương",
+          "amount": 1500
+        }
+      ],
+      "shippers": [],
+      "sale": {
+        "date": "2026-01-01",
+        "name": "Em Zai",
+        "address": "Tuyên Quang"
+      },
+      "isLocked": true,
+      "auditLogs": [
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-05T16:49:42.578Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-05T18:01:49.092Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T16:47:56.906Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T16:49:35.938Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T17:00:28.114Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T17:01:13.930Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "Nguyễn Văn Cương",
+          "at": "2026-02-07T21:42:55.080Z",
+          "color": "#6600ff"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-08T15:04:59.003Z"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Tên cổ đông cổ đông [Đạt]: Đạt ➔ Trần Văn Đạt",
+          "by": "admin",
+          "at": "2026-02-08T15:05:04.532Z"
+        },
+        {
+          "action": "delete-saler",
+          "label": "Xóa Người bán: Cương (1,500)",
+          "by": "admin",
+          "at": "2026-02-08T15:07:16.141Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Nguyễn Văn Cương (1,500)",
+          "by": "admin",
+          "at": "2026-02-08T15:07:20.603Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [60000] ➔ [60000]",
+          "by": "admin",
+          "at": "2026-02-08T18:17:04.079Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-09T00:02:42.368Z"
+        }
+      ],
+      "lockedAt": "2026-02-09T00:02:42.368Z"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "E200",
+      "year": "2014",
+      "plate": "",
+      "color": "Trắng",
+      "address": "",
+      "buyDate": "2026-01-15",
+      "buyPrice": 380000,
+      "sellPrice": 438000,
+      "status": "Đã bán",
+      "costs": [
+        {
+          "name": "Đi lấy xe",
+          "amount": 1000
+        }
+      ],
+      "shares": [
+        {
+          "name": "Lăng Văn Dương",
+          "amount": 380000
+        }
+      ],
+      "preCosts": {
+        "seller": [],
+        "shipper": [
+          {
+            "name": "Dương",
+            "amount": 2500
+          },
+          {
+            "name": "Đạt",
+            "amount": 2500
+          }
+        ]
+      },
+      "salers": [],
+      "shippers": [
+        {
+          "name": "Trần Văn Đạt",
+          "amount": 2000
+        }
+      ],
+      "sale": {
+        "date": "2026-01-25",
+        "name": "Em trai",
+        "address": "Quảng Ninh"
+      },
+      "isLocked": true,
+      "lockLogs": [
+        {
+          "action": "lock",
+          "time": "02:31:36 3/2/2026",
+          "by": "Admin"
+        }
+      ],
+      "auditLogs": [
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:06:54.575Z"
+        },
+        {
+          "action": "lock",
+          "label": "Khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:07:07.934Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:07:47.582Z"
+        },
+        {
+          "action": "lock",
+          "label": "Khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:07:50.183Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:30:20.490Z"
+        },
+        {
+          "action": "lock",
+          "label": "Khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:30:24.511Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:32:56.656Z"
+        },
+        {
+          "action": "lock",
+          "label": "Khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:32:58.855Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:57:16.017Z"
+        },
+        {
+          "action": "lock",
+          "label": "Khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-02T20:57:18.352Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-03T20:38:27.389Z"
+        },
+        {
+          "action": "lock",
+          "label": "Khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-03T20:38:30.364Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": {
+            "name": "admin",
+            "role": "Giám đốc",
+            "isRoot": true
+          },
+          "at": "2026-02-04T23:02:41.247Z"
+        },
+        {
+          "action": "lock",
+          "label": "Khóa sổ xe",
+          "by": {
+            "name": "admin",
+            "role": "Giám đốc",
+            "isRoot": true
+          },
+          "at": "2026-02-04T23:02:48.495Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-05T16:54:07.745Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Trạng thái: [Đã bán] ➔ [Kho]",
+          "by": "admin",
+          "at": "2026-02-05T17:00:10.417Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Trạng thái: [Kho] ➔ [Đã bán]",
+          "by": "admin",
+          "at": "2026-02-05T17:01:38.730Z"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Tên cổ đông cổ đông [Dương]: Dương ➔ Lăng Văn Dương",
+          "by": "admin",
+          "at": "2026-02-05T17:03:20.595Z"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Số tiền góp cổ đông [Lăng Văn Dương]: 380,000 ➔ 300,000",
+          "by": "admin",
+          "at": "2026-02-05T17:03:34.089Z"
+        },
+        {
+          "action": "add-share",
+          "label": "Thêm cổ phần: Trần Văn Đạt (80,000)",
+          "by": "admin",
+          "at": "2026-02-05T17:03:38.385Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Đi đánh xe về (1,000)",
+          "by": "admin",
+          "at": "2026-02-05T17:05:04.769Z"
+        },
+        {
+          "action": "delete-share",
+          "label": "Xóa cổ phần: Trần Văn Đạt (80,000)",
+          "by": "Trần Văn Đạt",
+          "at": "2026-02-05T17:52:30.188Z",
+          "color": "#1100ff"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Số tiền góp cổ đông [Lăng Văn Dương]: 300,000 ➔ 380,000",
+          "by": "Trần Văn Đạt",
+          "at": "2026-02-05T17:52:34.900Z",
+          "color": "#1100ff"
+        },
+        {
+          "action": "add-shipper",
+          "label": "Thêm Vận chuyển: Trần Văn Đạt (3,000)",
+          "by": "Trần Văn Đạt",
+          "at": "2026-02-05T17:52:55.635Z",
+          "color": "#1100ff"
+        },
+        {
+          "action": "delete-shipper",
+          "label": "Xóa Vận chuyển: Đạt (2,000)",
+          "by": "Trần Văn Đạt",
+          "at": "2026-02-05T17:52:58.283Z",
+          "color": "#1100ff"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T16:49:39.242Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T16:50:08.787Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T16:52:08.755Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T16:52:19.506Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T17:00:05.866Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T17:00:25.098Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-08T15:05:26.403Z"
+        },
+        {
+          "action": "add-shipper",
+          "label": "Thêm Vận chuyển: Trần Văn Đạt (2,000)",
+          "by": "admin",
+          "at": "2026-02-08T15:05:36.069Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-09T00:02:39.897Z"
+        }
+      ],
+      "lockedAt": "2026-02-09T00:02:39.897Z"
+    },
+    {
+      "brand": "BYD",
+      "model": "G3",
+      "year": "2011",
+      "plate": "30A-01813",
+      "color": "Xanh than",
+      "place": "HN",
+      "buyDate": "2026-01-30",
+      "buyPrice": 98000,
+      "status": "Kho",
+      "costs": [
+        {
+          "name": "Chi phí đi mua xe",
+          "amount": 500
+        },
+        {
+          "name": "Dọn nội  ngoại thất",
+          "amount": 500
+        },
+        {
+          "name": "Sửa lốc điều hóa kêu to",
+          "amount": 500
+        }
+      ],
+      "shares": [
+        {
+          "name": "Nguyễn Văn Giang",
+          "amount": 98000
+        }
+      ],
+      "address": "Hà Nội",
+      "auditLogs": [
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Chi phí đi mua xe (500)",
+          "by": "Admin",
+          "at": "2026-02-03T20:05:54.355Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Dọn nội  ngoại thất (500)",
+          "by": "Admin",
+          "at": "2026-02-03T20:06:17.538Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Sửa lốc điều hóa kêu to (500)",
+          "by": "Admin",
+          "at": "2026-02-03T20:06:29.323Z"
+        },
+        {
+          "action": "lock",
+          "label": "Khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-03T20:07:42.563Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "Admin",
+          "at": "2026-02-03T20:34:48.052Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Trạng thái: [Kho] ➔ [Đã bán]",
+          "by": "admin",
+          "at": "2026-02-05T17:54:51.326Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [98000] ➔ [97999]",
+          "by": "admin",
+          "at": "2026-02-05T17:54:57.779Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [97999] ➔ [98000]",
+          "by": "admin",
+          "at": "2026-02-05T17:54:59.676Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá bán: [0] ➔ [110]",
+          "by": "admin",
+          "at": "2026-02-05T17:55:05.323Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá bán: [110] ➔ [111]",
+          "by": "admin",
+          "at": "2026-02-05T17:55:07.251Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá bán: [111] ➔ [110]",
+          "by": "admin",
+          "at": "2026-02-05T17:55:08.172Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá bán: [110] ➔ [110000]",
+          "by": "admin",
+          "at": "2026-02-05T17:55:12.012Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-05T18:01:40.468Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-05T18:01:52.595Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-05T18:01:54.860Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T15:06:14.749Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Trạng thái: [Đã bán] ➔ [Kho]",
+          "by": "admin",
+          "at": "2026-02-07T15:06:17.151Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá bán: [110000] ➔ [0]",
+          "by": "admin",
+          "at": "2026-02-07T15:06:21.549Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Thêm thử (1,111)",
+          "by": "Lăng Văn Dương",
+          "at": "2026-02-07T20:15:05.163Z",
+          "color": "#ff0000"
+        },
+        {
+          "action": "delete-cost",
+          "label": "Xóa chi phí: Thêm thử (1,111)",
+          "by": "admin",
+          "at": "2026-02-07T21:29:31.591Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [98000] ➔ [98000]",
+          "by": "admin",
+          "at": "2026-02-08T16:35:22.964Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá nhập: [98000] ➔ [98000]",
+          "by": "admin",
+          "at": "2026-02-08T16:35:26.719Z"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Tên cổ đông cổ đông [Giang]: Giang ➔ Nguyễn Văn Giang",
+          "by": "admin",
+          "at": "2026-02-08T18:40:53.646Z"
+        }
+      ],
+      "sellPrice": 0,
+      "salers": [
+        {
+          "name": "Cương",
+          "amount": 2000
+        }
+      ],
+      "shippers": [],
+      "isLocked": false,
+      "sale": {
+        "date": "",
+        "name": "",
+        "address": ""
+      }
+    },
+    {
+      "brand": "Geely",
+      "model": "Emgrand EC718",
+      "year": "2012",
+      "plate": "15A-124.20",
+      "color": "Đen",
+      "place": "Hải Phòng",
+      "buyDate": "2026-02-02",
+      "buyPrice": 90000,
+      "status": "Đã bán",
+      "costs": [
+        {
+          "name": "Chi phí đi đánh xe: Ăn uống + Xăng",
+          "amount": 1500
+        }
+      ],
+      "shares": [
+        {
+          "name": "Lăng Văn Dương",
+          "amount": 90000
+        }
+      ],
+      "auditLogs": [
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Chi phí đi mua xe (1,500)",
+          "by": "Admin",
+          "at": "2026-02-03T20:37:29.781Z"
+        },
+        {
+          "action": "delete-cost",
+          "label": "Xóa chi phí: Chi phí đi mua xe",
+          "by": "Admin",
+          "at": "2026-02-03T20:38:48.116Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Chi phí đi đánh xe: Ăn uống + Xăng (1,500)",
+          "by": "Admin",
+          "at": "2026-02-03T20:39:02.157Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Giá bán: [undefined] ➔ [113000]",
+          "by": "admin",
+          "at": "2026-02-07T15:06:32.654Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Nguyễn Văn Cương (2,000)",
+          "by": "admin",
+          "at": "2026-02-07T15:06:46.150Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Trạng thái: [Kho] ➔ [Đã bán]",
+          "by": "admin",
+          "at": "2026-02-07T15:06:50.509Z"
+        },
+        {
+          "action": "edit-share",
+          "label": "Sửa Tên cổ đông cổ đông [Đạt]: Đạt ➔ Lăng Văn Dương",
+          "by": "admin",
+          "at": "2026-02-07T15:07:08.439Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T15:16:49.790Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T16:51:13.931Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T16:52:05.675Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-07T16:59:44.426Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-07T16:59:55.723Z"
+        },
+        {
+          "action": "unlock",
+          "label": "Mở khóa sổ xe",
+          "by": "admin",
+          "at": "2026-02-08T15:06:30.092Z"
+        },
+        {
+          "action": "delete-shipper",
+          "label": "Xóa Vận chuyển: Đạt (500)",
+          "by": "admin",
+          "at": "2026-02-08T15:06:48.366Z"
+        },
+        {
+          "action": "add-shipper",
+          "label": "Thêm Vận chuyển: Trần Văn Đạt (1,000)",
+          "by": "admin",
+          "at": "2026-02-08T15:07:01.979Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-09T00:02:37.088Z"
+        }
+      ],
+      "salers": [
+        {
+          "name": "Nguyễn Văn Cương",
+          "amount": 2000
+        }
+      ],
+      "shippers": [
+        {
+          "name": "Trần Văn Đạt",
+          "amount": 1000
+        }
+      ],
+      "sale": {
+        "date": "2026-02-05",
+        "name": "Bùi Giáp - Ô tô Điện Biên",
+        "address": "Điện Biên"
+      },
+      "sellPrice": 113000,
+      "isLocked": true,
+      "lockedAt": "2026-02-09T00:02:37.088Z"
+    },
+    {
+      "brand": "Mercesdes-Ben",
+      "model": "C200",
+      "year": "2012",
+      "plate": "20A-382.94",
+      "color": "Đỏ",
+      "place": "Tuyên - Thái Nguyên",
+      "buyDate": "2025-11-04",
+      "buyPrice": 195000,
+      "status": "Đã bán",
+      "costs": [
+        {
+          "name": "Sơn quây",
+          "amount": 5250
+        },
+        {
+          "name": "Xe kéo",
+          "amount": 500
+        },
+        {
+          "name": "Sửa chỗ a Diễn",
+          "amount": 19600
+        },
+        {
+          "name": "Dọn rửa, đổ xăng",
+          "amount": 550
+        },
+        {
+          "name": "Đăng kiểm",
+          "amount": 2000
+        },
+        {
+          "name": "ABS",
+          "amount": 250
+        },
+        {
+          "name": "Rút hồ sơ",
+          "amount": 3000
+        },
+        {
+          "name": "Chi phí ship xe",
+          "amount": 3500
+        }
+      ],
+      "shares": [
+        {
+          "name": "Trần Văn Đạt",
+          "amount": 195000
+        }
+      ],
+      "auditLogs": [
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Sơn quây (5,250)",
+          "by": "admin",
+          "at": "2026-02-08T14:28:00.363Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Xe kéo (500)",
+          "by": "admin",
+          "at": "2026-02-08T14:28:09.666Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Sửa chỗ a Diễn (19,600)",
+          "by": "admin",
+          "at": "2026-02-08T14:28:20.858Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Dọn rửa, đổ xăng (550)",
+          "by": "admin",
+          "at": "2026-02-08T14:29:06.634Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Đăng kiểm (2,000)",
+          "by": "admin",
+          "at": "2026-02-08T14:29:22.371Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: ABS (250)",
+          "by": "admin",
+          "at": "2026-02-08T14:29:29.338Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Rút hồ sơ (3,000)",
+          "by": "admin",
+          "at": "2026-02-08T14:29:41.298Z"
+        },
+        {
+          "action": "add-share",
+          "label": "Thêm cổ phần: Trần Văn Đạt (195,000)",
+          "by": "admin",
+          "at": "2026-02-08T14:30:10.116Z"
+        },
+        {
+          "action": "add-saler",
+          "label": "Thêm Người bán: Lăng Văn Dương (4,000)",
+          "by": "admin",
+          "at": "2026-02-08T14:30:25.610Z"
+        },
+        {
+          "action": "add-cost",
+          "label": "Thêm chi phí: Chi phí ship xe (3,500)",
+          "by": "admin",
+          "at": "2026-02-08T14:31:08.635Z"
+        },
+        {
+          "action": "edit-info",
+          "label": "Sửa Trạng thái: [Kho] ➔ [Đã bán]",
+          "by": "admin",
+          "at": "2026-02-08T14:32:29.538Z"
+        },
+        {
+          "action": "lock-data",
+          "label": "🔒 ĐÃ CHỐT SỔ - Khóa chỉnh sửa tài chính và hoàn tất chia lợi nhuận",
+          "by": "admin",
+          "at": "2026-02-09T00:02:33.918Z"
+        }
+      ],
+      "salers": [
+        {
+          "name": "Lăng Văn Dương",
+          "amount": 4000
+        }
+      ],
+      "shippers": [],
+      "sellPrice": 268000,
+      "sale": {
+        "date": "2026-02-04",
+        "name": "Chị gái Quảng Ninh",
+        "address": "Quảng Ninh"
+      },
+      "isLocked": true,
+      "lockedAt": "2026-02-09T00:02:33.917Z"
+    }
+  ],
+  "members": [
+    {
+      "name": "Trần Văn Đạt",
+      "role": "Cổ đông",
+      "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "color": "#ae00ff"
+    },
+    {
+      "name": "Nguyễn Văn Cương",
+      "role": "Giám đốc",
+      "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "color": "#6600ff"
+    },
+    {
+      "name": "Lăng Văn Dương",
+      "role": "Giám đốc",
+      "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "color": "#ff0000"
+    },
+    {
+      "name": "Nguyễn Văn Giang",
+      "role": "Cổ đông",
+      "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "color": "#00b3ff"
+    },
+    {
+      "name": "Nhi",
+      "role": "Kế toán",
+      "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "color": "#2bff00"
+    }
+  ]
+}
