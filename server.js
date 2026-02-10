@@ -8,8 +8,8 @@ app.use(express.json({ limit: '50mb' }));
 app.use(cors());
 
 // --- DÁN THÔNG TIN SUPABASE CỦA BẠN VÀO ĐÂY ---
-const SUPABASE_URL = 'https://fzbosmhyujvivdebipql.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ6Ym9zbWh5dWp2aXZkZWJpcHFsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA3MjgyODUsImV4cCI6MjA4NjMwNDI4NX0.jTQPveZcU-6M8V79HkAZdlqp9knPxCg_b9uWAvCGfSw';
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_KEY;
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // Hàm khởi tạo dữ liệu từ cars.json lên Supabase
@@ -63,5 +63,6 @@ app.post('/save-data', async (req, res) => {
     if (error) res.status(500).json(error);
     else res.json({ message: "Lưu Cloud thành công!" });
 });
+
 
 app.listen(3000, () => console.log("🚀 Server chạy tại port 3000 qua cổng HTTPS"));
